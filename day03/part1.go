@@ -23,7 +23,7 @@ func strsToInts(input string) int {
 }
 
 func Part1() int {
-	//str := utils.ReadInput("day02/input.small")
+	//str := utils.ReadInput("day03/input.small")
 	str := utils.ReadInput("day03/input")
     result := strsToInts(str[0])
     return result
